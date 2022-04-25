@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 
-export default class FunctionComponent extends Component {
+export default class ClassComponent extends Component {
   state = {
     myList : []
   }

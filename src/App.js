@@ -1,12 +1,14 @@
 import './App.css';
-import FunctionComponent from './components/classComponent';
+// import ClassComponent from './components/ClassComponent';
+import FunctionComponent from './components/FunctionComponent';
 
 
 
 function App(props) {
   return (
     <div className="App">
-      <FunctionComponent name={props.name} />
+      {/* <ClassComponent /> */}
+      <FunctionComponent />
     </div>
   );
 }
