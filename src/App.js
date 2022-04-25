@@ -1,5 +1,5 @@
 import './App.css';
-import FunctionComponent from './components/FunctionComponent';
+import FunctionComponent from './components/classComponent';
 
 
 
