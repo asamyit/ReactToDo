@@ -6,13 +6,16 @@ export default function FunctionComponent() {
     const addList = ()=> {
         const list = document.getElementById('listInput').value
         setmyList([...myList,list])
-        console.log(myList)
+    }
+
+    const clearList = ()=>{
+        setmyList([])
     }
   
 return (
     <div>
         <h3>My List</h3>
-        <button>Clear List</button>
+        <button onClick={clearList}>Clear List</button>
         <ul>
             {myList.map((item,index)=><li key={index}>{item}</li>)}
         </ul>
